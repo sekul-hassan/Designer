@@ -12,12 +12,80 @@
     background: rgba(0, 0, 0, 0.4) fixed;
 }
 .small{
+    position:initial;
     width: 100px;
     height: 100px;
+    margin-left: 25%;
 }
 .content{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+}
+
+.explore{
+    font-family: "amatica sc",sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 40px;
+    line-height: 50px;
+}
+.subTitle{
+    font-family: "poppins",sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700;
+    color: #18cfab;
+    font-style: normal;
+}
+.stdioImg{
+    width: 100%;
+    height: auto;
+}
+.bTitle{
+    color: #000000;
+    font-size: 24px;
+    font-family: Oswald, serif;
+    font-weight: 600;
+    line-height: 24px;
+    margin-top: 20px;
+}
+.bDes{
+    color: #4a4a4a;
+    font-family: "poppins", sans-serif;
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 400;
+}
+.bSubTitle{
+    color: #4a4a4a;
+    font-family: "poppins", sans-serif;
+    font-size: 13px;
+    line-height: 13px;
+    font-weight: 700;
+}
+.readMore{
+    color: #18cfab ;
+    padding: 5px 10px 5px 10px;
+    border: 2px solid #18cfab;
+    background-color: white;
+}
+.readMore:hover{
+    background-color: #18cfab;
+    color: white;
+    transition: 0.5s;
+}
+.contact{
+    color: white ;
+    padding: 5px 10px 5px 10px;
+    border: 2px solid #18cfab;
+    background-color: #18cfab;
+    margin-left: 20px;
+}
+.contact:hover{
+    background-color: white;
+    color: #18cfab;
+    transition: 0.5s;
 }

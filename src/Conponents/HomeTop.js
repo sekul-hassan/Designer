@@ -11,6 +11,8 @@ function HomeTop(props) {
                         <div className="overLay">
                             <div className="content">
                                 <img className="small" src={small}  alt=""/>
+                                <h4 className="explore">Explore & create!</h4>
+                                <h5 className="subTitle">ENJOY THE DIFFERENCE</h5>
                             </div>
                         </div>
                     </Col>
